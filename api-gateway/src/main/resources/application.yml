@@ -11,8 +11,18 @@ spring:
           uri: lb://product-service
           predicates:
             - Path=/product/**
-
+          filters:
+            - name: Hystrix
+              args:
+                name: productFallbackCommand
+                fallbackUri: forward:/fallback/product
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: hystrix.stream, info, health
