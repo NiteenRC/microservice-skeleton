@@ -9,12 +9,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
         <module name="product-service" />
+        <module name="config-server" />
         <module name="eureka-server" />
         <module name="hystrix-dashboard" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api-gateway" target="1.8" />
+      <module name="config-server" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="hystrix-dashboard" target="1.8" />
       <module name="microservice-skeleton" target="1.5" />
@@ -24,6 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api-gateway" options="-parameters" />
+      <module name="config-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="hystrix-dashboard" options="-parameters" />
       <module name="microservice-skeleton" options="-parameters" />
