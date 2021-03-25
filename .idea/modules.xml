@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservice-skeleton.iml" filepath="$PROJECT_DIR$/microservice-skeleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model-service/model-service.iml" filepath="$PROJECT_DIR$/model-service/model-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/product-service/product-service.iml" filepath="$PROJECT_DIR$/product-service/product-service.iml" />
     </modules>
   </component>
